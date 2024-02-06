@@ -3,13 +3,7 @@
 # Author: Github - nrkorte
 #
 # Hi there!
-# 
-# You are welcome to look through my code to see what is going on underneath the hood and improve it if you'd like
-# This program is not the most efficient (time-wise or storage-wise) but it gets the job done much faster than a human can
-# The main hub that sends requests for completing questions is in mcbegin()
-# From there each question type, prompt, and answer is parsed, completed, and stored through individual function calls
-#
-# Happy hunting!
+
 
 import sys
 import re
