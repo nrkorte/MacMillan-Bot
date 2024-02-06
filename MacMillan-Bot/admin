@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python3 bot_mac.py nrkorte Complication2001! "https://colostate.instructure.com/courses/178074/assignments/2348686?return_to=https%3A%2F%2Fcolostate.instructure.com%2Fcalendar%23view_name%3Dmonth%26view_start%3D2024-02-01"
+python3 bot_mac.py username password "link to assignment on Canvas"
 
 echo "Initializing..."
 
