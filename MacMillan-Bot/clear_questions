@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Path to the questions.json file
+json_file_path="./questions.json"
+
+# Check if the file exists
+if [ -f "$json_file_path" ]; then
+    # Remove the contents of the file and overwrite it with {}
+    echo "{}" > "$json_file_path"
+    echo "File contents deleted and overwritten with {}"
+else
+    echo "File not found: $json_file_path"
+fi
